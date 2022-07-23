@@ -1,3 +1,26 @@
 .App {
+    width: 20rem;
+    text-align: center;
+}
 
+.h1 {
+    width: 100%;
+}
+
+.inpTab {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.btnBlock {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 25%;
+}
+
+.btnBig {
+    width: 50%;
 }
