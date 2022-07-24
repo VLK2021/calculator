@@ -1,26 +1,82 @@
-.App {
-    width: 20rem;
-    text-align: center;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
-.h1 {
-    width: 100%;
+.App {
+    width: 20rem;
+    background: var(--var-bg-color);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 15%;
+}
+
+h1 {
+    width: 98%;
+    text-align: center;
+    background: var(--var-bg-color);
+    color: var(--var-bg-color-btn-topRight);
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.form {
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
 
 .inpTab {
     width: 100%;
-    margin-bottom: 2rem;
+    height: 40px;
+    text-align: end;
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    background: var(--var-color-number-btn);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    color: var(--var-color-black);
+    box-sizing: border-box;
 }
 
 .btnBlock {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.3rem;
+    column-gap: 4px;
+    gap: 4px;
+    box-sizing: border-box;
+
 }
 
 .btn {
-    width: 25%;
+    width: 24%;
+    font-weight: bold;
+    font-size: 15px;
+    min-height: 50px;
+    border-radius: 0.2rem;
+    color: var(--var-color-number-btn);
+    background: var(--var-bg-color-btn);
+    border: none;
 }
 
 .btnBig {
-    width: 50%;
+    width: 49.4%;
+}
+
+.altBtn{
+    background: var(--var-bg-color-btn-topRight);
+    color: var(--var-color-number-btn);
 }

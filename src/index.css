@@ -1,3 +1,11 @@
+:root {
+  --var-bg-color: #191970;
+  --var-bg-color-btn: #00008b;
+  --var-color-number-btn: #ffffff;
+  --var-bg-color-btn-topRight: #ff1493;
+  --var-color-black: green;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +19,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
