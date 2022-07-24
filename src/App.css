@@ -1,4 +1,4 @@
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,8 +9,8 @@
     width: 20rem;
     background: var(--var-bg-color);
     border: 1px solid black;
-    border-radius: 0.5rem;
-    padding: 0.3rem;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
     box-sizing: border-box;
     position: absolute;
     top: 15%;
@@ -26,7 +26,6 @@ h1 {
     padding: 0.5rem;
     box-sizing: border-box;
     margin: 0;
-
 }
 
 .form {
@@ -58,25 +57,25 @@ h1 {
     column-gap: 4px;
     gap: 4px;
     box-sizing: border-box;
-
 }
 
 .btn {
     width: 24%;
     font-weight: bold;
-    font-size: 15px;
-    min-height: 50px;
-    border-radius: 0.2rem;
+    font-size: 18px;
+    min-height: 60px;
+    border-radius: 0.5rem;
     color: var(--var-color-number-btn);
     background: var(--var-bg-color-btn);
     border: none;
 }
 
-.btnBig {
-    width: 49.4%;
+.btn:hover {
+    opacity: 0.5;
+    color: lawngreen;
+    transition: 0.5ms;
 }
 
-.altBtn{
+.altBtn {
     background: var(--var-bg-color-btn-topRight);
-    color: var(--var-color-number-btn);
 }

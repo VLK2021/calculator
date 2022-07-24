@@ -22,7 +22,7 @@ function App() {
         }
     };
 
-    const getOff = e => {
+    const getClear = e => {
         setResult('');
     };
 
@@ -48,7 +48,7 @@ function App() {
 
                 <div className={'btnBlock'}>
                     <button name={'C'} className={'btn altBtn'} onClick={clearOne}>C</button>
-                    <button name={'CLEAR'} className={'btn altBtn'} onClick={getOff}>CLEAR</button>
+                    <button name={'CLEAR'} className={'btn altBtn'} onClick={getClear}>CLEAR</button>
                     <button name={'C'} className={'btn altBtn'} onClick={getPlusMinus}>+/-</button>
                     <button name={'/'} className={'btn altBtn'} onClick={getNumber}>&divide;</button>
                     <button name={'7'} className={'btn'} onClick={getNumber}>7</button>
