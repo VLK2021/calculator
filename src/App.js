@@ -6,11 +6,16 @@ function App() {
     let [result, setResult] = useState('');
 
     const clearOne = e => {
+        if (result.includes('error')) {
+            return;
+        }else {
         setResult(result.slice(0, result.length - 1));
+        }
     };
 
     const getNumber = e => {
         if (result.includes('.') && e.target.innerText === '.') return;
+        if (result.includes('error')) return;
         setResult(result.concat(e.target.name));
     };
 
@@ -27,6 +32,7 @@ function App() {
     };
 
     const getPlusMinus = () => {
+        if (result.includes('error')) return;
         if (result.charAt(0) === '-') {
             setResult(result.substring(1));
         } else {
