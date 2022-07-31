@@ -16,7 +16,7 @@ function App() {
     const getNumber = e => {
         if (result.includes('0') && result.length === 1 && e.target.name === '0') return;
         if (result.includes('0') && result.length === 1 && e.target.name === '00') return;
-        if (result.includes('.') && e.target.innerText === '.') return;
+        if (result.includes('.') && e.target.innerText === '.' && (result.length ===2 || result.length === 1)) return;
         if (result.includes('error')) return;
         setResult(result.concat(e.target.name));
     };
