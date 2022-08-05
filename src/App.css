@@ -72,7 +72,7 @@ h1 {
 
 .btn:hover {
     opacity: 0.5;
-    color: lawngreen;
+    color: var(--var-color-number-btn);
     transition: 0.5ms;
 }
 
